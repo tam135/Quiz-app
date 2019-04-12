@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+.logoPic {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+body {
+  background: url(https://cmzone-vzbqbxhynotw9ion96xv.netdna-ssl.com/wp-content/uploads/2017/07/the-wall-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.startButton {
+  display: block;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #394577;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-top: 100px;
+}
+button:hover {
+  background-color: #0ca2b6;
+  
+}
+
+.submit-button, .nextButton, .restartButton {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #394577;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.questionPage{
+  display: none;
+  margin: auto auto;
+}
+
+.answerChoices {
+  display: block;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.questionLayout {
+  border: 2px solid #063156;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.wrongAnswerPage, .rightAnswerPage {
+  text-align: center;
+}
+
+.scoreNumber {
+  text-align: center;
+
+}
+
+@media screen and (max-width : 360px) {
+  .questionLayout {
+    width: 50%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .questionBox {
+    text-align: center;
+    width: 50%;
+    margin: auto auto;
+  }
+
+  .imageGif {
+    height: 200px;
+    width: 50%;
+  }
+}
+
+.resultsPage {
+  text-align: center;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+  .questionLayout {
+    width: 50%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .questionBox {
+    text-align: center;
+    width: 50%;
+    margin: auto auto;
+  }
+
+
+  .imageGif {
+    height: 250px;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width : 1200px) {
+  .questionLayout {
+    width: 50%;
+    margin: auto;
+  }
+
+  .questionBox {
+    text-align: center;
+    width: 50%;
+    margin: auto auto;
+  }
+
+  h1 {
+    font-weight: bolder;
+  }
+}
+
